@@ -1,0 +1,45 @@
+/* subtotal.css */
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  align-items:right;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 80px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddd;
+  border-radius: 3px;
+  position: absolute;
+  max-width: 40%; 
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+
+.proceed_button {
+  background-color: #141898;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.proceed_button:hover {
+  background-color: #4c52f6;
+  transform: scale(1.05);
+}
+
+.subtotal_gift {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.subtotal_gift input[type='checkbox'] {
+  margin-right: 5px;
+}
